@@ -441,7 +441,7 @@ wheels = [
 [[package]]
 name = "funasr"
 version = "1.2.9"
-source = { registry = "https://pypi.org/simple" }
+source = { git = "https://github.com/modelscope/FunASR.git?rev=main#74ada7222e1d61650f3b740a0bac01575591b23b" }
 dependencies = [
     { name = "editdistance" },
     { name = "hydra-core" },
@@ -463,10 +463,6 @@ dependencies = [
     { name = "torch-complex" },
     { name = "tqdm" },
     { name = "umap-learn" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/3e/77/58c6135513ff7b40476170ff884398edeaa8267a417d19d4419a92b663f0/funasr-1.2.9.tar.gz", hash = "sha256:111eb78e68478837b0fd72a15fb06463baa4cfcc68fa3982abe1e7472277bcf0", size = 609183, upload-time = "2025-12-15T16:50:54.558Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/4e/aa/4ee5bc310d4ecf286e2e3f3d01071b117f9296d8636dd564037323ead74e/funasr-1.2.9-py3-none-any.whl", hash = "sha256:a41189ac766f1a79682ebef75318f938612fe74a41d7defebdc68497c1362bb6", size = 755762, upload-time = "2025-12-15T16:50:52.79Z" },
 ]
 
 [[package]]
@@ -860,7 +856,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "funasr" },
+    { name = "funasr", git = "https://github.com/modelscope/FunASR.git?rev=main" },
     { name = "torch" },
     { name = "torchaudio" },
     { name = "transformers", specifier = ">=4.57.3" },
