@@ -58,7 +58,7 @@ uv run python asr_tool.py audio.mp3 -m FunAudioLLM/Fun-ASR-Nano-2512
 
 转录结果会保存为带时间戳的文本文件：
 
-```
+```text
 [00:00:00.000 --> 00:00:03.500] 第一句话
 [00:00:03.500 --> 00:00:07.200] 第二句话
 ```
