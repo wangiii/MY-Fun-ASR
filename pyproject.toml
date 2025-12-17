@@ -1,7 +1,7 @@
 [project]
-name = "my-fun-asr"
+name = "vv-asr"
 version = "0.1.0"
-description = "ASR工具 - 基于FunAudioLLM/Fun-ASR模型进行语音识别"
+description = "vv-asr - 语音识别工具"
 requires-python = ">=3.10"
 dependencies = [
     "funasr",
